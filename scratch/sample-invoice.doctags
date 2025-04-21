@@ -1,0 +1,145 @@
+<doctag><text><loc_49><loc_96><loc_231><loc_100>CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main</text>
+<text><loc_50><loc_110><loc_119><loc_137>Musterkunde AG Mr. John Doe Musterstr. 23 12345 Musterstadt</text>
+<section_header_level_1><loc_50><loc_176><loc_163><loc_181>Invoice WMACCESS Internet</section_header_level_1>
+<section_header_level_1><loc_49><loc_191><loc_120><loc_195>VAT No. DE199378386</section_header_level_1>
+<otsl><loc_47><loc_195><loc_473><loc_213><ched>Invoice No<ched>Customer No<ched>Invoice Period<ched>Date<nl><fcel>123100401<fcel>12345<fcel>01.02.2024 - 29.02.2024<fcel>1. März 2024<nl></otsl>
+<otsl><loc_47><loc_219><loc_473><loc_381><ched>Service Description<ched>Amount -without VAT-<ched>quantity<ched>Total Amount<nl><rhed>Basic Fee wmView<fcel>130,00 €<fcel>1<fcel>130,00 €<nl><rhed>Basis fee for additional user accounts<fcel>10,00 €<fcel>0<fcel>0,00 €<nl><rhed>Basic Fee wmPos<fcel>50,00 €<fcel>0<fcel>0,00 €<nl><rhed>Basic Fee wmGuide<fcel>1.000,00 €<fcel>0<fcel>0,00 €<nl><rhed>Change of user accounts<fcel>10,00 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee T1<fcel>0,58 €<fcel>14<fcel>8,12 €<nl><rhed>Transaction Fee T2<fcel>0,70 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee T3<fcel>1,50 €<fcel>162<fcel>243,00 €<nl><rhed>Transaction Fee T4<fcel>0,50 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee T5<fcel>0,80 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee T6<fcel>1,80 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee G1<fcel>0,30 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee G2<fcel>0,30 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee G3<fcel>0,40 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee G4<fcel>0,40 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee G5<fcel>0,30 €<fcel>0<fcel>0,00 €<nl><rhed>Transaction Fee G6<fcel>0,30 €<fcel>0<fcel>0,00 €<nl><ecel><fcel>Total<lcel><fcel>381,12 €<nl><ecel><fcel>VAT 19 %<lcel><fcel>72,41 €<nl><ecel><fcel>Gross Amount incl. VAT<lcel><fcel>453,53 €<nl></otsl>
+<text><loc_49><loc_396><loc_389><loc_407>Terms of Payment: Immediate payment without discount. Any bank charges must be paid by the invoice recipient. Bank fees at our expense will be charged to the invoice recipient!</text>
+<text><loc_49><loc_418><loc_410><loc_422>Please credit the amount invoiced to IBAN DE29 1234 5678 9012 3456 78 | BIC GENODE51MIC (SEPA Credit Transfer)</text>
+<text><loc_49><loc_440><loc_232><loc_444>This invoice is generated automatically and will not be signed</text>
+<picture><loc_305><loc_16><loc_385><loc_44></picture>
+<section_header_level_1><loc_306><loc_50><loc_454><loc_57>CPB SOFTWARE (GERMANY) GMBH</section_header_level_1>
+<text><loc_305><loc_60><loc_390><loc_81>Im Bruch 3, 63897 Miltenberg Telefon: +49 9371 9786 0 germany@cpb-software.com WWW. cpb-software.com</text>
+<text><loc_306><loc_132><loc_375><loc_137>Name:  Stefanie Müller</text>
+<text><loc_306><loc_140><loc_381><loc_144>Phone: +49 9371 9786-0</text>
+<page_break>
+<picture><loc_365><loc_0><loc_470><loc_31></picture>
+<section_header_level_1><loc_204><loc_44><loc_305><loc_53>Invoice Details</section_header_level_1>
+<otsl><loc_35><loc_60><loc_472><loc_177><ecel><ched>Period:<lcel><lcel><lcel><ched>01.02.2024<lcel><lcel><ched>to 29.02.2024<lcel><lcel><lcel><lcel><lcel><nl><fcel>Unit:<ched>Musterkunde AG<lcel><lcel><lcel><ecel><ecel><ecel><ched>12345<lcel><lcel><lcel><lcel><lcel><nl><fcel>Request sections:<ched>T1:<ched>T2:<ched>T3:<ched>T4:<ched>T5:<ched>T6:<ched>G1:<ched>G2:<ecel><ched>G3: G4:<ched>G5:<ched>G6:<ecel><nl><fcel>Amount in Euro:<fcel>0,58<fcel>0,70<fcel>1,50<fcel>0,50<fcel>0,80<fcel>1,80<fcel>0,30<fcel>0,30<fcel>0,40<fcel>0,40<fcel>0,30<fcel>0,30<ecel><nl><fcel>user-account-1<fcel>10<fcel>0<fcel>99<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>154,30 €<nl><fcel>user-account-2<fcel>4<fcel>0<fcel>63<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>96,82 €<nl><fcel>Transaction Fee Seg<fcel>T1:<fcel>T2:<fcel>T3:<fcel>T4:<fcel>T5:<fcel>T6:<fcel>G1:<fcel>G2:<ecel><fcel>G3: G4:<fcel>G5:<fcel>G6:<ecel><nl><fcel>Queries in Total:<fcel>14<fcel>0<fcel>162<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<fcel>0<ecel><nl><fcel>Total in Euro:<fcel>8,12 €<fcel>0,00 €<fcel>243,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>0,00 €<fcel>251,12 €<nl></otsl>
+<text><loc_37><loc_183><loc_330><loc_193>The explanation of the query fee categories (T1 to T6 and G1 to G6) can be found on our website: https://www.wmaccess.com/abfragekategorien</text>
+<page_break>
+<picture><loc_364><loc_0><loc_470><loc_31></picture>
+<section_header_level_1><loc_103><loc_44><loc_405><loc_53>Invoice Details for wmView Query Reference</section_header_level_1>
+<text><loc_146><loc_59><loc_362><loc_66>Period:        01.02.2024        to        29.02.2024</text>
+<text><loc_250><loc_110><loc_258><loc_114>T1:</text>
+<text><loc_277><loc_110><loc_285><loc_114>T2:</text>
+<text><loc_304><loc_110><loc_312><loc_114>T3:</text>
+<text><loc_331><loc_110><loc_339><loc_114>T4:</text>
+<text><loc_358><loc_110><loc_367><loc_114>T5:</text>
+<text><loc_385><loc_110><loc_394><loc_114>T6:</text>
+<text><loc_263><loc_127><loc_266><loc_130>4</text>
+<text><loc_290><loc_127><loc_293><loc_130>0</text>
+<text><loc_317><loc_127><loc_320><loc_130>9</text>
+<text><loc_344><loc_127><loc_347><loc_130>0</text>
+<text><loc_371><loc_127><loc_374><loc_130>0</text>
+<text><loc_398><loc_127><loc_401><loc_130>0</text>
+<text><loc_263><loc_134><loc_266><loc_138>0</text>
+<text><loc_290><loc_134><loc_293><loc_138>0</text>
+<text><loc_314><loc_134><loc_320><loc_138>12</text>
+<text><loc_344><loc_134><loc_347><loc_138>0</text>
+<text><loc_371><loc_134><loc_374><loc_138>0</text>
+<text><loc_398><loc_134><loc_401><loc_138>0</text>
+<text><loc_263><loc_141><loc_266><loc_145>0</text>
+<text><loc_290><loc_141><loc_293><loc_145>0</text>
+<text><loc_317><loc_141><loc_320><loc_145>4</text>
+<text><loc_344><loc_141><loc_347><loc_145>0</text>
+<text><loc_371><loc_141><loc_374><loc_145>0</text>
+<text><loc_398><loc_141><loc_401><loc_145>0</text>
+<text><loc_263><loc_149><loc_266><loc_153>5</text>
+<text><loc_290><loc_149><loc_293><loc_153>0</text>
+<text><loc_314><loc_149><loc_320><loc_153>36</text>
+<text><loc_344><loc_149><loc_347><loc_153>0</text>
+<text><loc_371><loc_149><loc_374><loc_153>0</text>
+<text><loc_398><loc_149><loc_401><loc_153>0</text>
+<text><loc_263><loc_156><loc_266><loc_160>0</text>
+<text><loc_290><loc_156><loc_293><loc_160>0</text>
+<text><loc_314><loc_156><loc_320><loc_160>19</text>
+<text><loc_344><loc_156><loc_347><loc_160>0</text>
+<text><loc_371><loc_156><loc_374><loc_160>0</text>
+<text><loc_398><loc_156><loc_401><loc_160>0</text>
+<text><loc_263><loc_163><loc_266><loc_167>1</text>
+<text><loc_290><loc_163><loc_293><loc_167>0</text>
+<text><loc_317><loc_163><loc_320><loc_167>7</text>
+<text><loc_344><loc_163><loc_347><loc_167>0</text>
+<text><loc_371><loc_163><loc_374><loc_167>0</text>
+<text><loc_398><loc_163><loc_401><loc_167>0</text>
+<text><loc_263><loc_171><loc_266><loc_175>2</text>
+<text><loc_290><loc_171><loc_293><loc_175>0</text>
+<text><loc_317><loc_171><loc_320><loc_175>6</text>
+<text><loc_344><loc_171><loc_347><loc_175>0</text>
+<text><loc_371><loc_171><loc_374><loc_175>0</text>
+<text><loc_398><loc_171><loc_401><loc_175>0</text>
+<text><loc_263><loc_178><loc_266><loc_182>0</text>
+<text><loc_290><loc_178><loc_293><loc_182>0</text>
+<text><loc_314><loc_178><loc_320><loc_182>11</text>
+<text><loc_344><loc_178><loc_347><loc_182>0</text>
+<text><loc_371><loc_178><loc_374><loc_182>0</text>
+<text><loc_398><loc_178><loc_401><loc_182>0</text>
+<text><loc_263><loc_186><loc_266><loc_189>0</text>
+<text><loc_290><loc_186><loc_293><loc_189>0</text>
+<text><loc_314><loc_186><loc_320><loc_189>15</text>
+<text><loc_344><loc_186><loc_347><loc_189>0</text>
+<text><loc_371><loc_186><loc_374><loc_189>0</text>
+<text><loc_398><loc_186><loc_401><loc_189>0</text>
+<text><loc_263><loc_193><loc_266><loc_197>0</text>
+<text><loc_290><loc_193><loc_293><loc_197>0</text>
+<text><loc_317><loc_193><loc_320><loc_197>5</text>
+<text><loc_344><loc_193><loc_347><loc_197>0</text>
+<text><loc_371><loc_193><loc_374><loc_197>0</text>
+<text><loc_398><loc_193><loc_401><loc_197>0</text>
+<text><loc_263><loc_200><loc_266><loc_204>1</text>
+<text><loc_290><loc_200><loc_293><loc_204>0</text>
+<text><loc_314><loc_200><loc_320><loc_204>23</text>
+<text><loc_344><loc_200><loc_347><loc_204>0</text>
+<text><loc_371><loc_200><loc_374><loc_204>0</text>
+<text><loc_398><loc_200><loc_401><loc_204>0</text>
+<text><loc_263><loc_208><loc_266><loc_211>1</text>
+<text><loc_290><loc_208><loc_293><loc_211>0</text>
+<text><loc_317><loc_208><loc_320><loc_211>4</text>
+<text><loc_344><loc_208><loc_347><loc_211>0</text>
+<text><loc_371><loc_208><loc_374><loc_211>0</text>
+<text><loc_398><loc_208><loc_401><loc_211>0</text>
+<text><loc_263><loc_215><loc_266><loc_219>0</text>
+<text><loc_290><loc_215><loc_293><loc_219>0</text>
+<text><loc_314><loc_215><loc_320><loc_219>11</text>
+<text><loc_344><loc_215><loc_347><loc_219>0</text>
+<text><loc_371><loc_215><loc_374><loc_219>0</text>
+<text><loc_398><loc_215><loc_401><loc_219>0</text>
+<text><loc_451><loc_178><loc_470><loc_182>16,50 €</text>
+<text><loc_37><loc_170><loc_68><loc_174>Kpi/22695</text>
+<text><loc_451><loc_171><loc_470><loc_175>10,16 €</text>
+<text><loc_37><loc_162><loc_68><loc_167>GS 32090</text>
+<text><loc_451><loc_163><loc_470><loc_167>11,08 €</text>
+<text><loc_451><loc_134><loc_470><loc_138>18,00 €</text>
+<text><loc_451><loc_156><loc_470><loc_160>28,50 €</text>
+<text><loc_37><loc_148><loc_72><loc_152>CRS/28432</text>
+<text><loc_451><loc_215><loc_470><loc_219>16,50 €</text>
+<text><loc_37><loc_207><loc_74><loc_211>WPN:24791</text>
+<text><loc_454><loc_208><loc_470><loc_211>6,58 €</text>
+<text><loc_37><loc_199><loc_70><loc_203>Ttrb/17885</text>
+<text><loc_451><loc_200><loc_470><loc_204>35,08 €</text>
+<text><loc_37><loc_192><loc_86><loc_196>SF-M 596/99-08</text>
+<text><loc_454><loc_193><loc_470><loc_197>7,50 €</text>
+<text><loc_451><loc_186><loc_470><loc_189>22,50 €</text>
+<text><loc_38><loc_78><loc_377><loc_84>Unit:        Musterkunde AG                                                            12345</text>
+<text><loc_250><loc_104><loc_393><loc_108>wmview, wmProfile and User Profiles Query Segments:</text>
+<text><loc_451><loc_149><loc_470><loc_153>56,90 €</text>
+<text><loc_37><loc_140><loc_68><loc_145>CCL/3715</text>
+<text><loc_451><loc_127><loc_470><loc_130>15,82 €</text>
+<text><loc_454><loc_141><loc_470><loc_145>6,00 €</text>
+<text><loc_37><loc_133><loc_81><loc_137>AZR/31/27439</text>
+<text><loc_284><loc_237><loc_359><loc_241>Price for each Query in Euro:</text>
+<section_header_level_1><loc_38><loc_109><loc_107><loc_114>Query Reference:</section_header_level_1>
+<text><loc_37><loc_126><loc_82><loc_130>*Not specified*</text>
+<text><loc_37><loc_214><loc_71><loc_218>Wwt/15658</text>
+<text><loc_37><loc_177><loc_64><loc_181>PG 7772</text>
+<text><loc_37><loc_155><loc_66><loc_159>Cs/52113</text>
+<text><loc_37><loc_184><loc_68><loc_189>Rjn/11138</text>
+<text><loc_255><loc_243><loc_266><loc_247>0,58</text>
+<text><loc_282><loc_243><loc_293><loc_247>0,70</text>
+<text><loc_309><loc_243><loc_320><loc_247>1,50</text>
+<text><loc_336><loc_243><loc_347><loc_247>0,50</text>
+<text><loc_363><loc_243><loc_374><loc_247>0,80</text>
+<text><loc_390><loc_243><loc_401><loc_247>1,80</text>
+<text><loc_284><loc_237><loc_359><loc_241>Price for each Query in Euro:</text>
+</doctag>
