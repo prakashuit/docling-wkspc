@@ -1,0 +1,12 @@
+pip install docling
+pip install ollama
+pip install langchain_ollama
+pip install langchain_huggingface
+pip install langchain_community
+pip install langchain
+pip install faiss-cpu
+
+
+install open llama (https://ollama.com/download/windows)
+ollama pull llama3.1
+ollama pull x/llama3.2-vision:11b

@@ -1,13 +1,13 @@
 from docling.document_converter import DocumentConverter
 import json
 import logging
-import time
+import time, re
 from pathlib import Path
 import pandas as pd
 from custom_config import customExtractConfig
 
-# source = "C:/Users/Administrator/Downloads/pdf-samples/wordpress-pdf-invoice-plugin-sample.pdf"
-source = "C:/Users/Administrator/Downloads/pdf-samples/sample-invoice.pdf"
+source = "C:/Users/Administrator/Downloads/pdf-samples/wordpress-pdf-invoice-plugin-sample.pdf"
+# source = "C:/Users/Administrator/Downloads/pdf-samples/sample-invoice.pdf"
 
 doc_converter = DocumentConverter()
 
@@ -81,6 +81,14 @@ def main_tbl():
 
     _log.info(f"Document converted and tables exported in {end_time:.2f} seconds.")
 
+def keywordExtract(keyword:str):
+    filename = 'C:/Prakash/source/docling-wkspc/scratch/wordpress-pdf-invoice-plugin-sample.txt'
+    text=''
+    with(Path(filename).open("r") as fp):
+        text = fp.read()
+    
+
 if(__name__=="__main__"):
     # main_tbl()
-   cusomtExtract()
+#    cusomtExtract()
+    keywordExtract('test')

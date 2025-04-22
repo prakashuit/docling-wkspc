@@ -1,0 +1,23 @@
+<doctag><picture><loc_35><loc_14><loc_162><loc_29></picture>
+<section_header_level_1><loc_36><loc_74><loc_57><loc_79>From:</section_header_level_1>
+<text><loc_36><loc_81><loc_125><loc_116>DEMO - Sliced Invoices Suite 5A-1204 123 Somewhere Street Your City AZ 12345 admin@slicedinvoices.com</text>
+<section_header_level_1><loc_36><loc_139><loc_47><loc_144>To:</section_header_level_1>
+<text><loc_36><loc_147><loc_106><loc_174>Test Business 123 Somewhere St Melbourne, VIC 3000 test@test.com</text>
+<otsl><loc_35><loc_192><loc_464><loc_222><ched>Hrs/Qty<ched>Service<ched>Rate/Price<ched>Adjust<ched>Sub Total<nl><fcel>1.00<fcel>Web Design This is a sample description...<fcel>$85.00<fcel>0.00%<fcel>$85.00<nl></otsl>
+<otsl><loc_285><loc_231><loc_465><loc_259><fcel>Sub Total<fcel>$85.00<nl><fcel>Tax<fcel>$8.50<nl><fcel>Total<fcel>$93.50<nl></otsl>
+<text><loc_36><loc_280><loc_94><loc_300>ANZ Bank ACC # 1234 1234 BSB # 4321 432</text>
+<section_header_level_1><loc_403><loc_33><loc_464><loc_45>Invoice</section_header_level_1>
+<text><loc_293><loc_71><loc_344><loc_76>Invoice Number</text>
+<text><loc_380><loc_71><loc_411><loc_76>INV-3337</text>
+<text><loc_293><loc_80><loc_340><loc_85>Order Number</text>
+<text><loc_380><loc_80><loc_400><loc_85>12345</text>
+<text><loc_293><loc_90><loc_334><loc_95>Invoice Date</text>
+<text><loc_380><loc_90><loc_437><loc_95>January 25, 2016</text>
+<text><loc_293><loc_99><loc_324><loc_104>Due Date</text>
+<text><loc_380><loc_99><loc_437><loc_104>January 31, 2016</text>
+<text><loc_293><loc_108><loc_326><loc_113>Total Due</text>
+<text><loc_380><loc_108><loc_402><loc_113>$93.50</text>
+<text><loc_147><loc_161><loc_365><loc_314>Rate/Price Sub Total Total Paid</text>
+<page_footer><loc_36><loc_460><loc_366><loc_472>Payment is due within 30 days from date of invoice. Late payment is subject to fees of 5% per month. Thanks for choosing DEMO - Sliced Invoices | admin@slicedinvoices.com</page_footer>
+<page_footer><loc_36><loc_475><loc_65><loc_480>Page 1/1</page_footer>
+</doctag>
