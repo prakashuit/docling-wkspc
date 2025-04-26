@@ -54,7 +54,7 @@ def method2() :
     ...
 
 def method3():
-    llm = ChatOllama(model='llama3.1').with_structured_output(Invoice,method='json_schema')
+    llm = ChatOllama(model='llama3.2').with_structured_output(Invoice,method='json_schema')
     response = llm.invoke(extractPDFText("sample/sample-invoice.pdf"))
     print(response)
     ...

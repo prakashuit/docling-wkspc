@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import List
 
 class Service(BaseModel):
-    ServiceName: str = Field(..., description=" Service Name")
+    ServiceDescription: str = Field(..., description=" Service Description from table ")
     AmountWithoutVAT: float = Field(..., description="Amount-without VAT")
     Quantity: int = Field(..., description="quantity")
     TotalAmount: float = Field(..., description=" Total Amount")
@@ -19,7 +19,7 @@ class Invoice(BaseModel):
     GrossAmount: float = Field(..., description="Total Gross Amount including VAT")
     VATPercentage: float = Field(..., description="VAT ""%"" on the invoice ")
     VATNumber: str = Field(..., description="VAT Number")
-    ServiceNamesList: List[Service] = Field(..., description="Extract Invoice line items from the first page") 
+    ServiceNamesList: List[Service] = Field(..., description="Extract Service line items from the table structure on the given markdown from first page") 
 
 # Example usage
 invoice_data = {
@@ -36,7 +36,7 @@ invoice_data = {
     "VATNumber":"DE19",
     "ServiceNamesList": [
         {
-            "ServiceName": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "ServiceDescription": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "AmountWithoutVAT": 0.0,
             "Quantity": 0,
             "TotalAmount": 0
