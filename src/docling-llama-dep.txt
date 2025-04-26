@@ -6,6 +6,8 @@ pip install langchain_community
 pip install langchain
 pip install faiss-cpu
 
+pip install streamlit
+
 
 install open llama (https://ollama.com/download/windows)
 ollama pull llama3.1

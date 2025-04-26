@@ -1,0 +1,128 @@
+{
+    "InvoiceNo": 123100401,
+    "PersonName": "John Doe",
+    "PersonAddress": "Musterstr. 23, 12345 Musterstadt",
+    "CompanyName": "Musterkunde AG",
+    "CompanyAddress": "Im Bruch 3, 63897 Петкзбынсь",
+    "CustomerNo": 12345,
+    "InvoicePeriod": "(01.02.2024 - 29.02.2024)",
+    "InvoiceDate": "",
+    "GrossAmount": 251.12,
+    "VATPercentage": "Why no VAT amount?",
+    "ServicesList": [
+        {
+            "ServiceDescription": "Transaction Fee T1",
+            "AmountWithoutVAT": 8.12,
+            "Quantity": 14,
+            "TotalAmount": 8.12
+        },
+        {
+            "ServiceDescription": "Query Fee T2",
+            "AmountWithoutVAT": 0.0,
+            "Quantity": 0,
+            "TotalAmount": 0.0
+        },
+        {
+            "ServiceDescription": "Transaction Fee T3",
+            "AmountWithoutVAT": 243.0,
+            "Quantity": 162,
+            "TotalAmount": 243.0
+        },
+        {
+            "ServiceDescription": "Query Fee T4",
+            "AmountWithoutVAT": 0.0,
+            "Quantity": 0,
+            "TotalAmount": 0.0
+        },
+        {
+            "ServiceDescription": "Query Fee T5",
+            "AmountWithoutVAT": 0.0,
+            "Quantity": 0,
+            "TotalAmount": 0.0
+        },
+        {
+            "ServiceDescription": "Query Fee T6",
+            "AmountWithoutVAT": 0.0,
+            "Quantity": 0,
+            "TotalAmount": 0.0
+        },
+        {
+            "ServiceDescription": "Transaction Fee G1",
+            "AmountWithoutVAT": 0.3,
+            "Quantity": 0,
+            "TotalAmount": 0.3
+        },
+        {
+            "ServiceDescription": "Query Fee G2",
+            "AmountWithoutVAT": 0.3,
+            "Quantity": 0,
+            "TotalAmount": 0.3
+        },
+        {
+            "ServiceDescription": "Transaction Fee G3",
+            "AmountWithoutVAT": 0.4,
+            "Quantity": 0,
+            "TotalAmount": 0.4
+        },
+        {
+            "ServiceDescription": "Query Fee G4",
+            "AmountWithoutVAT": 0.4,
+            "Quantity": 0,
+            "TotalAmount": 0.4
+        },
+        {
+            "ServiceDescription": "Transaction Fee G5",
+            "AmountWithoutVAT": 0.3,
+            "Quantity": 0,
+            "TotalAmount": 0.3
+        },
+        {
+            "ServiceDescription": "Query Fee G6",
+            "AmountWithoutVAT": 0.3,
+            "Quantity": 0,
+            "TotalAmount": 0.3
+        },
+        {
+            "ServiceDescription": "Transaction Fee T1 Seg",
+            "AmountWithoutVAT": 7.5,
+            "Quantity": 4,
+            "TotalAmount": 15.82
+        },
+        {
+            "ServiceDescription": "Query Fee T2 Seg",
+            "AmountWithoutVAT": 6.0,
+            "Quantity": 0,
+            "TotalAmount": 0.0
+        },
+        {
+            "ServiceDescription": "Transaction Fee T3 Seg",
+            "AmountWithoutVAT": 28.5,
+            "Quantity": 9,
+            "TotalAmount": 25.55
+        },
+        {
+            "ServiceDescription": "Query Fee T4 Seg",
+            "AmountWithoutVAT": 18.0,
+            "Quantity": 5,
+            "TotalAmount": 90.0
+        },
+        {
+            "ServiceDescription": "Transaction Fee T1 Rtn",
+            "AmountWithoutVAT": 35.08,
+            "Quantity": 11,
+            "TotalAmount": 380.86
+        },
+        {
+            "ServiceDescription": "Query Fee T2 Rtn",
+            "AmountWithoutVAT": 22.5,
+            "Quantity": 23,
+            "TotalAmount": 525.0
+        },
+        {
+            "ServiceDescription": "Transaction Fee G1 Rtn",
+            "AmountWithoutVAT": 11.08,
+            "Quantity": 16,
+            "TotalAmount": 177.84
+        }
+    ]
+}

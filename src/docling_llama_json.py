@@ -10,13 +10,16 @@ from langchain.chains import RetrievalQA  # For question-answering pipeline
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 import time
+# from invoice_json_schema import INVOICE_SCHEMA
+from invoice_pydantic import Invoice, Service
+from langchain_ollama import ChatOllama
 
 
 
 def createPrompts() -> PromptTemplate :
      # Define custom prompt template for responses
     prompt_template = """
-        Use the following pieces of context to answer the question at the end.
+        Use the following pieces of context to answer the question at the end in the JSON Format based on the JSON schema provided.
         
         Check context very carefully and reference and try to make sense of that before responding.
         If you don't know the answer, just say you don't know.
@@ -38,7 +41,7 @@ def createPrompts() -> PromptTemplate :
 
 def configureLLM() -> OllamaLLM :
     # Initialize local LLM using Ollama
-    llm = OllamaLLM(model="llama3.2")
+    llm = OllamaLLM(model="llama3.2",)
     return llm
 
 def createVectorStore(texts: List[str]) -> FAISS:
@@ -94,86 +97,22 @@ def setup():
         "question": RunnablePassthrough()
     }
         | prompts
-        | llm
-        | StrOutputParser()
+        | llm.with_structured_output(Invoice.model_json_schema())
     )
     
-
-    # # STEP 6: Initialize QA chain for processing questions
-    # qaChain = RetrievalQA.from_chain_type(
-    #     llm=llm,
-    #     chain_type="stuff",  # Combines all retrieved docs into single context
-    #     retriever=vectorStore.as_retriever(search_kwargs={"k": 3}),  # Retrieve top 3 relevant chunks
-    #     chain_type_kwargs={"prompt": prompts},
-    #     return_source_documents=True,  # Include source documents in response
-    #     )
-    questionsAnswers(qaChain)
+    # questionsAnswers(qaChain)
        
 
 def questionsAnswers(qaChain):
     start_time = time.time()
-    question = "What is VAT No. ?"
+    question = "Provide the JSON data for the invoice data provided in the context"
     print(f"\nQuestion: {question}")
     response = qaChain.invoke(question)
     print(f"\nAnswer: {response}")
     end_time = time.time() - start_time
     print(f"Time taken : {end_time:.2f} seconds.")
 
-    start_time = time.time()
-    question = "What is VAT% ?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
-
-    start_time = time.time()
-    question = "What is Invoice No ?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
-
-    start_time = time.time()
-    question = "What is the Invoice Period ?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
-
-    start_time = time.time()
-    question = "What is the Invoice Address ?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
-
-    start_time = time.time()
-    question = "What is the Invoice Name and Phone # ?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
-
-    start_time = time.time()
-    question = "What is the total amount for Transaction Fee T3 ?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
-
-    start_time = time.time()
-    question = "List down all the  Query References?"
-    print(f"\nQuestion: {question}")
-    response = qaChain.invoke(question)
-    print(f"\nAnswer: {response}")
-    end_time = time.time() - start_time
-    print(f"Time taken : {end_time:.2f} seconds.")
+    
 
 if __name__ == "__main__":
     setup()

@@ -90,5 +90,5 @@ def keywordExtract(keyword:str):
 
 if(__name__=="__main__"):
     # main_tbl()
-#    cusomtExtract()
-    keywordExtract('test')
+   cusomtExtract()
+    # keywordExtract('test')
