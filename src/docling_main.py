@@ -6,8 +6,8 @@ from pathlib import Path
 import pandas as pd
 from custom_config import customExtractConfig
 
-source = "C:/Users/Administrator/Downloads/pdf-samples/wordpress-pdf-invoice-plugin-sample.pdf"
-# source = "C:/Users/Administrator/Downloads/pdf-samples/sample-invoice.pdf"
+# source = "C:/Users/Administrator/Downloads/pdf-samples/wordpress-pdf-invoice-plugin-sample.pdf"
+source = "C:/Users/Administrator/Downloads/pdf-samples/sample-invoice.pdf"
 
 doc_converter = DocumentConverter()
 

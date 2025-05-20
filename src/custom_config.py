@@ -18,7 +18,7 @@ _log = logging.getLogger(__name__)
 def customExtractConfig() -> {}:
     logging.basicConfig(level=logging.INFO)
 
-    # input_doc_path = Path("./tests/data/pdf/2206.01062.pdf")
+   
 
     ###########################################################################
 
@@ -102,15 +102,15 @@ def customExtractConfig() -> {}:
 
     # Docling Parse with Tesseract
     # ----------------------
-    pipeline_options = PdfPipelineOptions()
-    pipeline_options.do_ocr = True
-    pipeline_options.do_table_structure = True
-    pipeline_options.table_structure_options.do_cell_matching = True
-    pipeline_options.ocr_options = TesseractOcrOptions()
+    # pipeline_options = PdfPipelineOptions()
+    # pipeline_options.do_ocr = True
+    # pipeline_options.do_table_structure = True
+    # pipeline_options.table_structure_options.do_cell_matching = True
+    # pipeline_options.ocr_options = TesseractOcrOptions()
 
-    format_options={
-        InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
-    }
+    # format_options={
+    #     InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+    # }
 
     # Docling Parse with Tesseract CLI
     # ----------------------
